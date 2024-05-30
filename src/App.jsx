@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Services from "./components/Services/Services";
 import Preloader from "./components/Preloader/Preloader";
+import Qualification from "./components/Qualification/Qualification";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -28,6 +29,7 @@ const App = () => {
       <About />
       <Skills />
       <Services />
+      <Qualification />
     </div>
   );
 };
